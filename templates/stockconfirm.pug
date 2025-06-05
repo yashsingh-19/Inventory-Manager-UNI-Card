@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uni-Card | Updated ✅</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+</head>
+
+<body>
+    <nav>
+        <p class="wbename">Uni-Card Enterprises</p>
+    </nav>
+    <p class="note notelabel" style="top: -20vh; display: block;">Stock Updated</p>
+    <form action="/confirmredirectupdate" method="post" >
+        <button class="but" style="position: relative;top: -10vh;">Update another</button>
+    </form>
+    <form action="/confirmredirecthome" method="post">
+        <button class="but">Home page</button>
+    </form>
+    script.
+        // Check if the page is being refreshed
+        if (performance.navigation.type === 1) {
+        // Redirect to the desired page
+        let text = "Reloading will lead to login again";
+        if (confirm(text) == true) {window.location.href = '/redirect';}}
+        
+</body>
+
+</html>

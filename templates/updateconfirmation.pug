@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uni-Card | Confirm❔</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <script defer src="../static/confirm.js"></script>
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+</head>
+
+<body>
+    <nav>
+        <p class="wbename">Uni-Card Enterprises</p>
+    </nav>
+    <p style="font-family: 'Poppins', sans-serif;">Update Stock of :</p>
+    <br>
+    <p id="prod" style="font-family: 'Poppins', sans-serif;text-align: center;color: gray;"></p>
+    <br>
+    <p style="font-family: 'Poppins', sans-serif;text-align: center;"> Quantity:</p>
+    <p style="font-family: 'Poppins', sans-serif;text-align: center;color: gray;"> #{quantity}</p>
+    <br>
+    <span style="font-family: 'Poppins', sans-serif; text-align: center;">Details/Bill number :</span>
+    <span style="font-family: 'Poppins', sans-serif; text-align: center;color: gray;">#{note}</span>
+    <br>
+    <br>
+    <form action="/savestock" method="post" id="form"></form>
+    <form action="/updatestock" method="get">
+        <button id="employee" class="but" style="position: relative;top: 5vh;">🔙 Edit</button>
+    </form>
+    script.
+
+        // Check if the page is being refreshed
+        if (performance.navigation.type === 1) {
+        // Redirect to the desired page
+        let text = "Reloading will lead to login again";
+        if (confirm(text) == true) {window.location.href = '/redirect';}}
+</body>
+
+</html>

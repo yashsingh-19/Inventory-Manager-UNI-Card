@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uni-Card | Stock</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+</head>
+<body>
+    <nav>
+        <p class="wbename">Uni-Card Enterprises</p>
+    </nav>
+    <form action="/viewstock" method="get" id="adminform">
+        <button id="admin" class="but">View Stock 📊</button>
+    </form>
+    <form action="/updatestock" method="get" style="position: relative; top: -10vh;">
+        <button id="employee" class="but">Update Stock 📝</button>
+    </form>
+    <form action="/registeremp" method="get">
+        <button id="employee" class="but">Register User <b>🪪</b></button>
+    </form>
+    <form action="/removeemp" method="get">
+        <button id="employee" class="but" style="position: relative;top: 3vh;">Remove User <b>🗑️</b></button>
+    </form>
+    <form action="/" method="get">
+        <button id="employee" class="but" style="position: relative;top: 15vh;">🔙 Back</button>
+    </form>
+    script.
+        // Check if the page is being refreshed
+        if (performance.navigation.type === 1) {
+        // Redirect to the desired page
+        let text = "Reloading will lead to login again";
+        if (confirm(text) == true) {window.location.href = '/redirect';}}
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uni-Card | View Stock 📊</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+</head>
+<body>
+    table
+        tr
+          th Product
+          td #{product}
+        tr
+          th Quantity
+          td #{quantity}
+        tr
+          th Detail
+          td #{detail}
+        tr
+          th User
+          td #{user}
+        tr
+          th Date Created
+          td #{date}
+    <form action="/viewstock" method="get">
+        <button id="employee" class="but" style="position: relative;top: 5vh;">🔙 Back</button>
+    </form>
+</body>
+</html>

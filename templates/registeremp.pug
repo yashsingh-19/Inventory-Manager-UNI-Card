@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uni-Card | Register Employee</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+</head>
+<body>
+    <form action="/registeremp" method="post">
+        <input type="text" name="username" id="username" class="input" placeholder="Enter Username" required>
+        <input type="text" name="password" id="password" class="input" placeholder="Enter Password" required>
+        <select name="acctype" id="acctype" class="input" style="position: initial;" required>
+            <option value="Admin">Admin</option>
+            <option value="Employee">Employee</option>
+        </select>
+        <button id="register" class="but" style="position: relative;top: 5vh;">Register 🪪</button>
+    </form>
+    <form action="/adminmain" method="get">
+        <button id="employee" class="but" style="position: relative;top: 15vh;">🔙 Back</button>
+    </form>
+    script.
+        // Check if the page is being refreshed
+        if (performance.navigation.type === 1) {
+        // Redirect to the desired page
+        let text = "Reloading will lead to login again";
+        if (confirm(text) == true) {window.location.href = '/redirect';}}
+</body>
+</html>

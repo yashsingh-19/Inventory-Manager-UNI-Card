@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uni-Card | Remove Employee 🗑️</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+</head>
+<body>
+    table
+        tr
+          th Username
+          th Delete
+        each name in found
+            <form action="/deleteuser" method="post">
+                input(type='hidden', name='delete', value= name)
+                tr
+                    td= name
+                    td <button id="employee" class="but" style="position: relative;color: crimson;width: -webkit-fill-available;border-radius: 5px;" >Delete</button>
+            </form>  
+            
+    <form action="/adminmain" method="get">
+        <button id="employee" class="but" style="position: relative;top: 15vh;">🔙 Back</button>
+    </form>
+    script.
+        // Check if the page is being refreshed
+        if (performance.navigation.type === 1) {
+        // Redirect to the desired page
+        let text = "Reloading will lead to login again";
+        if (confirm(text) == true) {window.location.href = '/redirect';}}
+</body>
+</html>
