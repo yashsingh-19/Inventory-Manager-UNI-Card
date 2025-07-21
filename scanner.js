@@ -8,3 +8,5 @@
 # end of day adjustments, will test tomorrow
 
 # Update app.js
+
+# fixing weird bug in stock count calculation
