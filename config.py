@@ -5,3 +5,5 @@
 # refactored routes for cleaner code
 
 # hotfix: correct minor typo in templates
+
+# Update updatestock.pug
