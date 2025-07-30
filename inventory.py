@@ -5,3 +5,5 @@
 # hotfix: correct minor typo in templates
 
 # testing edge cases on barcode scanner
+
+# version 1.0.1
