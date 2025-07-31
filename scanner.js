@@ -16,3 +16,5 @@
 # update readme with setup instructions
 
 # Update style.css
+
+# fixing weird bug in stock count calculation
