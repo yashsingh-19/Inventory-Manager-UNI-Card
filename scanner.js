@@ -18,3 +18,5 @@
 # Update style.css
 
 # fixing weird bug in stock count calculation
+
+# added basic db models for items
