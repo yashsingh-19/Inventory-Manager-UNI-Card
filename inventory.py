@@ -7,3 +7,5 @@
 # testing edge cases on barcode scanner
 
 # version 1.0.1
+
+# tweaked the barcode scanner integration
