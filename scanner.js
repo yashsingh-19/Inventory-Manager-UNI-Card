@@ -20,3 +20,5 @@
 # fixing weird bug in stock count calculation
 
 # added basic db models for items
+
+# hotfix: correct minor typo in templates
