@@ -22,3 +22,5 @@
 # added basic db models for items
 
 # hotfix: correct minor typo in templates
+
+# Update app.js
