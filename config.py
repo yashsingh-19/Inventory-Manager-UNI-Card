@@ -13,3 +13,5 @@
 # quick style fix on reports layout
 
 # quick style fix on reports layout
+
+# fixing weird bug in stock count calculation
