@@ -9,3 +9,5 @@
 # version 1.0.1
 
 # tweaked the barcode scanner integration
+
+# refactored routes for cleaner code
