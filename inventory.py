@@ -11,3 +11,5 @@
 # tweaked the barcode scanner integration
 
 # refactored routes for cleaner code
+
+# initial project skeleton setup
