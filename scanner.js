@@ -26,3 +26,5 @@
 # Update app.js
 
 # Version 1.0.0
+
+# tweaked the barcode scanner integration
