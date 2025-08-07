@@ -24,3 +24,5 @@
 # hotfix: correct minor typo in templates
 
 # Update app.js
+
+# Version 1.0.0
