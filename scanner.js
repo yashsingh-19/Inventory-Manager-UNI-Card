@@ -28,3 +28,5 @@
 # Version 1.0.0
 
 # tweaked the barcode scanner integration
+
+# cleaned up unused imports and dead code
