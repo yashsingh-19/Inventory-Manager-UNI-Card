@@ -30,3 +30,5 @@
 # tweaked the barcode scanner integration
 
 # cleaned up unused imports and dead code
+
+# update readme with setup instructions
