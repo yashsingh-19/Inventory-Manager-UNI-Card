@@ -32,3 +32,5 @@
 # cleaned up unused imports and dead code
 
 # update readme with setup instructions
+
+# initial project skeleton setup
