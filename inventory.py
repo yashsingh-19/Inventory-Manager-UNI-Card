@@ -13,3 +13,5 @@
 # refactored routes for cleaner code
 
 # initial project skeleton setup
+
+# Update updatestock.pug
