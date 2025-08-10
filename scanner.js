@@ -34,3 +34,5 @@
 # update readme with setup instructions
 
 # initial project skeleton setup
+
+# added environment config template
